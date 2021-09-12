@@ -1522,6 +1522,7 @@
     .box_cooperation_with_companies {
         width: 375px;
         margin-top: 50px;
+        margin-bottom: 0;
     }
     
     .banner2 {
@@ -1538,11 +1539,73 @@
         flex-direction: column;
         margin-left: 100px;
         margin-top: 0;
-       
-        
     }
 
     .image_companies {
        padding-bottom: 15px; 
+    }
+
+    .box_possibilities_1, .box_possibilities_3 {
+        width: 375px;
+        flex-direction: column;
+    }
+
+    .box_possibilities_2, .box_possibilities_4 {
+        width: 375px;
+        flex-direction: column-reverse;
+    }
+
+    .flexbox_possibilities_1, .flexbox_possibilities_2, .flexbox_possibilities_3, .flexbox_possibilities_4 {
+        width: 355px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .banner1 {
+        width: 355px;
+        height: 50px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .description1 {
+        width: 355px;
+    }
+
+    .picture_possibilities {
+        width: 355px;
+        margin-left: 10px;
+    }
+
+    .container_code {
+        width: 373px;
+        height: 340px;
+        border: none;
+    }
+
+    .flexbox_code {
+        width: 373px;
+    }
+
+    .code {
+        width: 372px;
+    }
+
+    .first_line, .second_line, .third_line, .fourth_line, .fifth_line, .sixth_line, .seventh-line {
+        margin-left: 0;
+    }
+
+    .lokalise {
+        padding-right: 10px;
+    }
+
+    .seventh-line {
+        margin-left: 5px;
+    }
+
+    .php_code {
+        margin-right: 320px;
+        margin-top: 287px;
     }
 }
