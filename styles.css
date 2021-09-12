@@ -1608,4 +1608,49 @@
         margin-right: 320px;
         margin-top: 287px;
     }
+
+    .banner_for_lokalize {
+        padding-left: 5px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .flexbox_possibilities_5 {
+        width: 375px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .element {
+        flex-basis: 365px;
+    }
+
+    .box_possibilities_6 {
+        width: 375px;
+        display: none;
+    }
+
+    .flexbox_possibilities_6 {
+        flex-direction: column;
+    }
+
+    .element_boost {
+        width: 375px;
+    }
+
+    .information_about_owner {
+        display: none;
+    }
+
+    .container_reviews {
+        display: none;
+    }
+
+    .container_integrate_lokalise {
+        display: none;
+    }
 }
