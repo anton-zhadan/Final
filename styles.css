@@ -1491,14 +1491,14 @@
     .banner {
         width: 375px;
         height: 280px;
-        margin-left: 10px;
+        margin-left: 0;
         margin-top: 50px;
     }
 
     .description {
         width: 335px;
         margin-top: 30px;
-        margin-left: 10px;
+        margin-left: 0;
         height: 210px;
     }
 
@@ -1664,14 +1664,19 @@
         flex-direction: column;
         width: 375px;
         height: 500px;
+        border: none;
     }
 
     .container_localization_made_easy {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        height: 250px;
     }
 
     .button_try_it_free {
-        display: none;
+        display: ;
+        margin-top: 20px;
+        margin-left: 100px;
     }
 
     .see_all_integrations {
@@ -1681,11 +1686,9 @@
     }
 
     .last_container {
-        display: none;
-    }
-
-    .footer {
-        display: none;
+        display: ;
+        height: 1170px;
+        padding-top: 0;
     }
 
     .banner_correct {
@@ -1778,6 +1781,7 @@
     .box_one {
         flex-direction: column;
         width: 373px;
+        border: none;
     }
 
     .box_review {
@@ -1820,5 +1824,62 @@
         width: 375px;
         height: 300px;
         margin-top: 50px;
+    }
+
+    .box_banner_localization_made_easy {
+        width: 375px;
+        height: 55px;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .banner_localization_made_easy {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .box_subtitle_info {
+        width: 375px;
+        padding-left: 0;
+    }
+
+    .flexbox_last_container {
+        flex-direction: column;
+        border: none;
+    }
+
+    .flexbox_one_case_studies {
+        margin-left: 35px;
+        border: none;
+    }
+
+    .flexy {
+        margin-top: 30px;
+    }
+
+    .product_links_box_one, .product_links_box_two, .product_links_box_three, .product_links_box_four {
+        width: 170px;
+        border: none;
+    }
+
+    .product_links_box_three, .product_links_box_four {
+        margin-top: 30px;
+        border: none;
+    }
+
+    .footer {
+        display: ;
+    }
+
+    .flexbox_container_footer {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        border-top: none;
+    }
+
+    .flexbox_container_two {
+        margin-top: 20px;
+        text-align: center;
     }
 }
