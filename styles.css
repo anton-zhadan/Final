@@ -59,19 +59,18 @@
 }
 
 .menu {
-    font-family: sans-serif;
+    font-family: 'Graphik LC TT';
     list-style-type: none;
     display: flex;
     align-items: center;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 20px;
+    height: 50px;
 }
 
 .menu-item {
-    padding: 39px 57px 36px 51px;
-    font-family: Graphik LC TT;
+    margin: 39px 57px 36px 51px;
+    font-family: 'Graphik LC TT';
 }
 
 .menu-item:hover {
@@ -105,7 +104,7 @@
     line-height: 45px;
     font-weight: bold;
     margin-right: 10px;
-    font-family: Graphik LC TT;
+    font-family: 'Graphik LC TT';
 }
 
 .button1:hover {
@@ -119,12 +118,11 @@
     border-radius: 0px;
     width: 120px;
     height: 45px;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 45px;
     color: #FFFFFF;
-    font-family: Graphik LC TT;
+    font-family: 'Graphik LC TT';
 }
 
 .button2:hover {
@@ -135,20 +133,17 @@
 .banner {
     width: 552px;
     height: 210px;
-    font-style: normal;
     font-weight: bold;
     font-size: 65px;
     line-height: 70px;
     margin-top: 129px;
     margin-left: 75px;
-    font-family: Graphik LC TT;
+    font-family: 'Graphik LC TT';
 }
 
 .description {
     width: 471px;
     height: 140px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 25px;
     line-height: 35px;
     margin-top: 51px;
@@ -169,7 +164,6 @@
     border-radius: 0px;
     width: 160px;
     height: 45px;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 45px;
@@ -207,8 +201,6 @@
 .limit_using {
     width: 369px;
     height: 25px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 25px;
     margin-top: 25px;
@@ -234,7 +226,6 @@
 .banner2 {
     width: 720px;
     height: 120px;
-    font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
@@ -324,7 +315,6 @@
 .banner1 {
     width: 493px;
     height: 120px;
-    font-style: normal;
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
@@ -335,8 +325,6 @@
 .description1 {
     width: 491px;
     height: 120px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 30px;
@@ -350,7 +338,6 @@
 .banner_correct {
     width: 493px;
     height: 120px;
-    font-style: normal;
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
@@ -360,8 +347,6 @@
 .description_correct {
     width: 491px;
     height: 120px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 60px;
@@ -371,7 +356,6 @@
 .link {
     width: 96px;
     height: 30px;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -411,16 +395,12 @@
     font-family: 'Roboto', sans-serif;
     padding-right: 8px;
     color: #000088;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
 }
 
 .equals {
     color: #339933;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -428,8 +408,6 @@
 }
 
 .new {
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -437,8 +415,6 @@
 
 .lokalise {
     color: #9876AA;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -447,8 +423,6 @@
 
 .left_bracket, .right_bracket {
     color: #009900;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -456,16 +430,12 @@
 
 .token {
     color: #000088;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
 .semicolon {
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     color: #339933;
@@ -479,8 +449,6 @@
 
 .response {
     color: #000088;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -489,8 +457,6 @@
 
 .equals1 {
     color: #339933;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -507,16 +473,12 @@
 
 .arrow, .arrow1 {
     color: #339933;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
 .files {
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -525,8 +487,6 @@
 }
 
 .download {
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -535,8 +495,6 @@
 
 .left_bracket1, .right_bracket1 {
     color: #009900;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
