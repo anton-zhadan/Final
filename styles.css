@@ -6,22 +6,32 @@
 .header {
     display: flex;
     border-bottom: 1px solid #CCCCCC;
+    height: 95px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation_menu {
+    display: flex;
+    width: 840px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .vector-lettering {
+    width: 130px;
     height: 28px;
-    margin: 34px 51px 34px 51px;
 }
 
-.burger-icon {
+/* .burger-icon {
 	width: 48px;
 	height: 31px;
 	border: none;
 	background: none;
 	outline: none;
-}
+} */
 
-.burger-icon-item {
+/* .burger-icon-item {
 	width: 24px;
 	height: 4px;
 	background: #FFC500;
@@ -50,15 +60,14 @@
 	position: absolute;
 	bottom: -8px;
 	left: 0;
-}
+} */
 
 .nav-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 592px;
 }
 
 .menu {
+    justify-content: space-between;
     font-family: 'Graphik LC TT';
     list-style-type: none;
     display: flex;
@@ -69,7 +78,7 @@
 }
 
 .menu-item {
-    margin: 39px 57px 36px 51px;
+    
     font-family: 'Graphik LC TT';
 }
 
@@ -85,13 +94,12 @@
     height: 1px;
 }
 
-.button {
+.box_buttons {
     display: flex;
-    padding-left: 151px;
-    padding-top: 25px;
+    margin-right: 51px;
 }
 
-.button1 {
+.button_login {
     border: none;
     background-color: #fff;
     width: 120px;
@@ -107,12 +115,12 @@
     font-family: 'Graphik LC TT';
 }
 
-.button1:hover {
+.button_login:hover {
     background: #ffff00;
     cursor: pointer;
 }
 
-.button2 {
+.button_try_if_free {
     border: none;
     background-color:#FF6336;
     border-radius: 0px;
@@ -125,19 +133,20 @@
     font-family: 'Graphik LC TT';
 }
 
-.button2:hover {
+.button_try_if_free:hover {
     background: #f00;
     cursor: pointer;
 }
 
+.container {
+    width: 1290px;
+    display: flex;
+}
+
 .banner {
     width: 552px;
-    height: 210px;
-    font-weight: bold;
     font-size: 65px;
     line-height: 70px;
-    margin-top: 129px;
-    margin-left: 75px;
     font-family: 'Graphik LC TT';
 }
 
@@ -210,10 +219,6 @@
 
 .image {
     width: 759px;
-    height: 529px;
-    position: absolute;
-    left: 700px;
-    bottom: 10px;
 }
 
 .box_cooperation_with_companies {
