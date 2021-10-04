@@ -23,45 +23,6 @@
     height: 28px;
 }
 
-/* .burger-icon {
-	width: 48px;
-	height: 31px;
-	border: none;
-	background: none;
-	outline: none;
-} */
-
-/* .burger-icon-item {
-	width: 24px;
-	height: 4px;
-	background: #FFC500;
-	position: relative;
-	cursor: pointer;
-    top: -8px;
-    left: 10px;
-}
-
-.burger-icon-item::before {
-	content: "";
-	display: block;
-	width: 24px;
-	height: 4px;
-	background: #A4A14A;
-	position: absolute;
-	top: -8px;
-	left: 0;
-}
-
-.burger-icon-item::after {
-	content: url(img/cursor_down.svg);
-	display: block;
-	width: 24px;
-	height: 4px;
-	position: absolute;
-	bottom: -8px;
-	left: 0;
-} */
-
 .nav-menu {
     width: 592px;
 }
@@ -78,7 +39,6 @@
 }
 
 .menu-item {
-    
     font-family: 'Graphik LC TT';
 }
 
@@ -249,6 +209,7 @@
     align-items: baseline;
     width: 1290px;
     height: 53px;
+    padding-top: 70px;
     margin: 0 auto;
 }
 
@@ -716,6 +677,8 @@
 
 .text_information_owner {
     width: 870px;
+    display: flex;
+    flex-direction: column;
 }
 
 .speech_owner {
@@ -732,7 +695,9 @@
 }
 
 .revolut {
-    padding-top: 7px;
+    margin-top: 7px;
+    width: 112px;
+    height: 25px;
 }
 
 .photo_owner {
@@ -806,7 +771,6 @@
     margin-top: 169px;
     margin-left: 250px;
 }
-
 
 .banner_lokalise {
     font-weight: 600;
@@ -919,7 +883,6 @@
 
 .last_container {
     background: #EEEEEE;
-    height: 900px;
 }
 
 .flexbox_last_container {
@@ -993,17 +956,24 @@
     padding-top: 21px;
 }
 
+a {
+   text-decoration: none;
+   color: #000000;
+}
+
+a:hover {
+   color: #0000FF; 
+}
+
 .link_item {
     font-size: 15px;
     line-height: 15px;
-    color: #000000;
     font-family: Graphik LC TT;
     list-style-type: none;
     padding-bottom: 15px;
 }
 
 .link_item:hover {
-    color: #0000FF;
     cursor: pointer;
 }
 
@@ -1084,6 +1054,10 @@
         padding-left: 100px;
     }
 
+    .navigation_menu {
+        width: 769px;
+    }
+
     .menu-item {
         margin: 15px;
     }
@@ -1094,12 +1068,20 @@
         height: 1px;
     }
 
+    .box_buttons {
+        margin-right: 0px;
+    }
+
     .button {
         padding-left: 80px;
     }
 
     .button1, .button2  {
         width: 90px;
+    }
+
+    .container {
+        width: 1024px;
     }
 
     .banner {
@@ -1148,12 +1130,12 @@
         margin-left: 10px;
     }
 
-    .box_possibilities_1, .box_possibilities_2, .box_possibilities_3, .box_possibilities_4 {
+    .box_possibilities {
         margin-bottom: 40px;
         width: 1024px;
     }
 
-    .flexbox_possibilities_1 {
+    .flexbox_possibilities {
         width: 500px;
         margin-right: 0;
     }
@@ -1162,19 +1144,8 @@
         width: 450px;
     }
 
-    .flexbox_possibilities_2 {
-        width: 530px;
-        margin-left: 0;
-    }
-
-    .flexbox_possibilities_3 {
-        width: 530px;
-        margin-right: 0;
-    }
-
-    .flexbox_possibilities_4 {
-        width: 490px;
-        margin-left: 5px;
+    .flexbox_possibilities:nth-child(even) {
+        margin-left: 10px;
     }
 
     .container_code {
@@ -1198,10 +1169,8 @@
         width: 1024px;
     }
 
-    .banner_boost {
-        margin-top: 80px;
-        width: 900px;
-        margin-left: 60px;
+    .banner_specification_boost {
+        width: 1024px;
         text-align: center;
     }
 
@@ -1224,6 +1193,10 @@
         margin-top: 100px;
     }
 
+    .btn2 {
+        margin: 0px;
+    }
+
     .box_subtitle {
         margin-left: 250px;
     }
@@ -1242,7 +1215,12 @@
     }
 
     .box_subtitle_info {
-        padding-left: 300px;
+        padding-left: 0px;
+    }
+
+    .box_button_redblock_tryitfree {
+        margin: 0px;
+        margin-top: 54px;
     }
 
     .button_try_it_free {
@@ -1264,11 +1242,13 @@
 
     .product_links_box_one, .product_links_box_two, .product_links_box_three, .product_links_box_four {
         margin-left: 10px;
+        width: 144px;
     }
 
     .flexbox_container_footer {
-        margin-left: 75px;
+        margin-left: 0px;
         margin-right: 75px;
+        width: 1024px;
     }
 
     .flexbox_container_two {
@@ -1380,17 +1360,26 @@
         left: 0;
     }
 
-    .header {
-        flex-direction: column;
+    .navigation_menu {
+        width: 375px;
     }
 
     .vector-lettering {
+        display: none;
+    }
+
+    .box_buttons {
+        margin-bottom: 15px;
+        margin-right: 20px;
+    }
+
+    .container {
+        margin-top: 0px;
         flex-direction: column;
-        width: 200px;
-        height: 28px;
-        padding-left: 0;
-        margin-right: 0;
-        margin-left: 130px;
+    }
+    
+    .main_banner {
+        width: 375px;
     }
 
     .button {
@@ -1429,9 +1418,10 @@
     }
 
     .image {
+        position: static;
         width: 375px;
         left: 0;
-        top: 230px;
+        top: 0;
     }
     
     .box_cooperation_with_companies {
@@ -1454,27 +1444,33 @@
         flex-direction: column;
         margin-left: 100px;
         margin-top: 0;
+        padding-top: 0px;
     }
 
     .image_companies {
        padding-bottom: 15px; 
     }
 
-    .box_possibilities_1, .box_possibilities_3 {
+    .box_possibilities {
         width: 375px;
         flex-direction: column;
+        margin-top: 26px;
     }
 
-    .box_possibilities_2, .box_possibilities_4 {
-        width: 375px;
+    .box_possibilities:nth-child(even) {
         flex-direction: column-reverse;
     }
 
-    .flexbox_possibilities_1, .flexbox_possibilities_2, .flexbox_possibilities_3, .flexbox_possibilities_4 {
+    .link {
+        margin: 0 auto;
+    }
+
+    .flexbox_possibilities {
         width: 355px;
         margin-top: 30px;
         margin-bottom: 10px;
         margin-left: 10px;
+        text-align: center;
     }
 
     .banner1 {
@@ -1587,7 +1583,7 @@
     }
 
     .button_try_it_free {
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 100px;
     }
 
@@ -1617,20 +1613,35 @@
         margin-bottom: 30px;
     }
 
+    .img {
+        display: block;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+
     .banner_2 {
         padding-top: 0;
+        padding-left: 0px;
+        margin: 0 auto;
+        width: 132px;
     }
     
     .banner_2_games {
-        padding-left: 130px;
+        width: 75px;
+        padding-left: 0;
+        margin: 0 auto;
     }
-
-    .banner_2_marketing {
-        padding-left: 90px;
+    
+    .banner_2_marketing{
+        padding-left: 0px;
+        width: 197px;
+        margin: 0 auto;
     }
 
     .banner_2_iot {
-        padding-left: 150px;
+        padding-left: 0px;
+        width: 41px;
+        margin: 0 auto;
     }
 
     .banner_boost {
@@ -1642,6 +1653,8 @@
     .banner_specification_boost {
         font-size: 30px;
         line-height: 30px;
+        margin-top: 0px;
+        width: 375px;
     }
 
     .flexbox_possibilities_6 {
@@ -1654,6 +1667,10 @@
 
     .banner_3 {
         margin-left: 100px;
+    }
+
+    .link_2 {
+        margin-left: 130px;
     }
 
     .banner_3_developers {
@@ -1672,10 +1689,13 @@
         width: 375px;
     }
 
+    .speech_owner {
+        text-align: center;
+    }
+
     .photo_owner {
         width: 300px;
-        height: 300px;
-        margin-top: 200px;
+        margin-top: 22px;
         padding-left: 0px;
         padding-right: 0;
     }
@@ -1721,7 +1741,6 @@
     .banner_lokalise {
         font-size: 30px;
         line-height: 30px;
-        
     }
 
     .box_subtitle {
@@ -1731,21 +1750,21 @@
     }
 
     .bird {
-        width: 375px;
+        width: 360px;
         height: 300px;
         margin-top: 50px;
-    }
-
-    .box_banner_localization_made_easy {
-        width: 375px;
-        height: 55px;
-        padding-left: 0;
-        padding-top: 20px;
     }
 
     .banner_localization_made_easy {
         font-size: 30px;
         line-height: 30px;
+        margin-top: 20px;
+        width: 375px;
+        padding-top: 0px;
+    }
+
+    .box_button_redblock_tryitfree {
+        margin-top: 25px;
     }
 
     .box_subtitle_info {
@@ -1756,6 +1775,7 @@
     .flexbox_last_container {
         flex-direction: column;
         border: none;
+        width: 375px;
     }
 
     .flexbox_one_case_studies {
@@ -1765,6 +1785,7 @@
 
     .flexy {
         margin-top: 30px;
+        width: 375px;
     }
 
     .product_links_box_one, .product_links_box_two, .product_links_box_three, .product_links_box_four {
@@ -1782,6 +1803,8 @@
         margin-left: 0;
         margin-right: 0;
         border-top: none;
+        width: 375px;
+        height: 40px;
     }
 
     .flexbox_container_two {
